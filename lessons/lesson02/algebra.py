@@ -103,7 +103,36 @@ def matrixMultiplication(matrix1, matrix2):
 			for k in range(cols_A):
 				matrix3[i][j] = matrix3[i][j] + matrix1[i][k]*matrix2[k][j]
 
-	print "      Output Matrix :", matrix3
-	return
+	print "      Output Matrix :"
+	return matrix3
 
-matrixMultiplication(a_matrix, b_matrix)
+print matrixMultiplication(a_matrix, b_matrix)
+
+"""
+
+Identity Matrix exercises - 
+
+An identity matrix is a matrix where value = 1 
+if the row and column index are the same, and 0 otherwise. 
+It should build any size identity matrix you want.
+
+"""
+
+def iMatrix(num):
+
+	print "==================="
+	print "Class Execises - Identity Matrix"
+
+	matrix = [[0 for row in range(num)] for col in range(num)]
+	print "    Input Parameter :", num
+	print " Matrix initialized :", matrix
+
+	for row in range(num):
+		for col in range(num):
+			if row == col:
+				matrix[col][row] = 1
+
+	print "      Output Matrix :"
+	return matrix
+
+print iMatrix(4)
