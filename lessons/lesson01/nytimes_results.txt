@@ -1,0 +1,9 @@
+=====================
+     Impression Sum :2295559.0
+            Age Sum :13516010.0
+          Click Sum :42449
+       Total record :458441
+=====================
+        Average Age : 29.48
+ Click Through Rate : 0.0185
+      Oldest Person :108
