@@ -6,6 +6,7 @@ Second lesson Python script - to output a CSV
 
 Michael Yung
 2014-01-31
+2014-02-05 Add Sorting to the matrix
 
 """
 
@@ -70,6 +71,10 @@ for line in lines:
 
 	if match == 1:
 		summary.append([age, gender, signed_in, 1, click, impression, click, impression])
+
+# Sort the matrix, looks like it will ignore the header nicely (or sort it)
+
+summary.sort()
 
 # print summary
 
