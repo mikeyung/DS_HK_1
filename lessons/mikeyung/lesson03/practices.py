@@ -47,6 +47,10 @@ print "a1:", a1
 print "a2:", a2
 print "m1:", m1
 print "m2:", m2
+
+# array multiplication is element multiplication
+# where matrix multiplication is linear multiplication
+
 print "a1 * a2:", a1 * a2
 print "m1 * m2:", m1 * m2
 
@@ -61,7 +65,8 @@ print "====="
 # .T Transposes the array or matrix:
 print "a1.T", a1.T
 # .I returns the matrix inverse:
-print "m1.T", m1.I
+# matrix multipy by it's own inverse will become an Identity matrix
+print "m1.I", m1.I
 # eye(value) creates an identity matrix:
 iFive = eye(5)
 print "iFive:", iFive
