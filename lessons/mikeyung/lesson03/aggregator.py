@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-import pandas as pd
 from __future__ import division
+import pandas as pd
 
 def get_nytimes_datasets(n):
     """
@@ -24,6 +24,8 @@ def ratio(x,y):
         return x/y
     else:
         return 0
+
+df = get_nytimes_datasets(2)
 
 df["CTR"] = map(ratio, df["Clicks"], df["Impressions"])
 

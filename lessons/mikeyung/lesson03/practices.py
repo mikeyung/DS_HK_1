@@ -70,3 +70,9 @@ print "m1.I", m1.I
 # eye(value) creates an identity matrix:
 iFive = eye(5)
 print "iFive:", iFive
+
+print "====="
+
+print "exp(10):", exp(10) # e ^ value
+print " log(1):", log(1)
+print "sqrt(4):", sqrt(4)
