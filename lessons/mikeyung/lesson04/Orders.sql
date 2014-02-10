@@ -4,12 +4,11 @@ SELECT * FROM Customers where Country = ‘UK'
 
 -- What is the name of the customer who has the most orders?
 
-SELECT Customers.CustomerName, sum(Quantity)
-FROM OrderDetails 
-JOIN Orders on (Orders.OrderID = OrderDetails.OrderID) 
-JOIN Customers on (Orders.CustomerID = Customers.CustomerID)
-GROUP BY Orders.CustomerID
-ORDER BY sum(Quantity) DESC
+SELECT Customers.CustomerName, count(Customers.CustomerID) AS CountOrder
+FROM Customers 
+JOIN Orders on (Orders.CustomerID = Customers.CustomerID) 
+GROUP BY Customers.CustomerID
+ORDER BY CountOrder DESC
 Limit 1
 
 -- What supplier has the highest average product price?
@@ -43,7 +42,7 @@ LIMIT 1
 
 -- What employee made the most sales (by value of sales)?
 
-SELECT Employees.FirstName, Employees.LastName, OrderDetails.Quantity * Products.Price AS ValueSales
+SELECT Employees.FirstName, Employees.LastName, sum(OrderDetails.Quantity * Products.Price) AS ValueSales
 FROM OrderDetails
 JOIN Orders on (OrderDetails.OrderID = Orders.OrderID)
 JOIN Products on (OrderDetails.ProductID = Products.ProductID)
@@ -65,6 +64,6 @@ SELECT Suppliers.SupplierName, AVG(Products.Price) AS AveragePrice, Count(Produc
 FROM Products
 JOIN Suppliers on (Suppliers.SupplierID = Products.SupplierID)
 GROUP by Products.SupplierID
-HAVING NumProducts > 2
+HAVING NumProducts > 1
 ORDER BY AveragePrice DESC
 LIMIT 1
