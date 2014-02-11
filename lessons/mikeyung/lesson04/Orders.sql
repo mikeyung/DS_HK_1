@@ -7,7 +7,7 @@
 --
 -- What customers are from the UK
 
-SELECT * FROM Customers where Country = ‘UK'
+SELECT * FROM Customers where Country = 'UK'
 
 -- What is the name of the customer who has the most orders?
 
