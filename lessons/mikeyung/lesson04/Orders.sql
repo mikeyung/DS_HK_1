@@ -1,15 +1,22 @@
+--
+-- Lesson 4 Exercises
+--
+-- Michael Yung
+--
+-- Test link : http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all
+--
 -- What customers are from the UK
 
 SELECT * FROM Customers where Country = ‘UK'
 
 -- What is the name of the customer who has the most orders?
 
-SELECT Customers.CustomerName, count(Customers.CustomerID) AS CountOrder
+SELECT Customers.CustomerName, count(Customers.CustomerID) AS CountOrder 
 FROM Customers 
 JOIN Orders on (Orders.CustomerID = Customers.CustomerID) 
-GROUP BY Customers.CustomerID
-ORDER BY CountOrder DESC
-Limit 1
+GROUP BY Customers.CustomerID 
+ORDER BY CountOrder DESC 
+LIMIT 1
 
 -- What supplier has the highest average product price?
 
