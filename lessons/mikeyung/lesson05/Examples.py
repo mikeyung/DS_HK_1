@@ -21,10 +21,11 @@ def regression(input, response):
 print "==== thru the regression function ==="
 print regression(X, y)
 
-
+print "==== Plotting data ===="
 import pandas as pd
 import matplotlib.pyplot as plt
-mammals = pd.read_csv('/Users/michaelyung/DS_HK_1/data/class/mammals.csv')
+mammals = pd.read_csv('/Users/michaelyung/DS_HK_1/data/mammals.csv')
+
 plt.scatter(mammals['body'], mammals['brain'])
 plt.show()
 plt.hist(mammals['body'], bins=range(0, 10000, 100))
@@ -32,9 +33,30 @@ plt.show()
 plt.hist(mammals['brain'], bins=range(0, 10000, 100))
 plt.show()
 
+"""
+Log to evenly space out ...
+"""
+
+print "==== log the data ===="
 from numpy import log
 mammals['log_body'] = log(mammals['body'])
 mammals['log_brain'] = log(mammals['brain'])
 plt.scatter(mammals['log_body'], mammals['log_brain'])
+plt.show()
+
+print "==== Using Linear Regression ===="
+
+from sklearn import linear_model
+# Make the model object
+regr = linear_model.LinearRegression()
+# Fit the data
+body = [[x] for x in mammals['body'].values]
+brain = mammals['brain'].values
+regr.fit(body, brain)
+
+plt.scatter(body, brain)
+plt.plot(body, regr.predict(body), color='blue', linewidth=3)
+plt.show()
+
 
 
