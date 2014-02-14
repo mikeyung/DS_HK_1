@@ -23,7 +23,7 @@ NY Times Aggregate data
 """
 
 def AG(x,y):
-	return array([x,y])
+	return [x,y]
 
 nytimes = pd.read_csv('/Users/michaelyung/DS_HK_1/data/nyagg.csv')
 nytimes['Age_gender'] = map(AG, nytimes['Age'], nytimes['Gender'])
@@ -37,6 +37,11 @@ age = [[x] for x in nytimes['Age'].values]
 gender = [[x] for x in nytimes['Gender'].values]
 ctr = nytimes['Ctr'].values
 age_gender = [[x] for x in nytimes['Age_gender'].values]
+
+print age[:10]
+print gender[:10]
+print ctr[:10]
+print age_gender[:10]
 
 nytimes['log_age'] = log(nytimes['Age'])
 nytimes['log_gender'] = log(nytimes['Gender'])
