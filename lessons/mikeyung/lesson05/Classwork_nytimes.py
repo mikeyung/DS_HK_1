@@ -8,12 +8,10 @@ Michael Yung
 """
 
 import pandas as pd
-
 import matplotlib.pyplot as plt
 
 from numpy import log, array
 from numpy import exp, mean, log
-
 from sklearn import linear_model
 
 """
@@ -36,12 +34,7 @@ print nytimes[:10]
 age = [[x] for x in nytimes['Age'].values]
 gender = [[x] for x in nytimes['Gender'].values]
 ctr = nytimes['Ctr'].values
-age_gender = [[x] for x in nytimes['Age_gender'].values]
-
-print age[:10]
-print gender[:10]
-print ctr[:10]
-print age_gender[:10]
+age_gender = [ x for x in nytimes['Age_gender'].values]
 
 nytimes['log_age'] = log(nytimes['Age'])
 nytimes['log_gender'] = log(nytimes['Gender'])
@@ -65,6 +58,21 @@ print " Score (~1 is good) :", regr_age.score(age, ctr)
 plt.scatter(age, ctr)
 plt.title("NYTimes - Predict by Age")
 plt.plot(age, regr_age.predict(age), color='blue', linewidth=3)
+plt.show()
+
+print "==== Log Age ===="
+
+regr_log_age = linear_model.LinearRegression()
+regr_log_age.fit(log_age, log_ctr)
+
+print "          Intercept :", regr_log_age.intercept_
+print "               Coef :", regr_log_age.coef_
+print "Sum of square error :", mean((regr_log_age.predict(log_age) - log_ctr) ** 2)
+print " Score (~1 is good) :", regr_log_age.score(log_age, log_ctr)
+
+plt.scatter(log_age, log_ctr)
+plt.title("NYTimes - Predict by Log Age")
+plt.plot(log_age, regr_log_age.predict(log_age), color='blue', linewidth=3)
 plt.show()
 
 print "==== Both Gender ===="
@@ -118,9 +126,10 @@ plt.title("NYTimes - Predict by Female Gender")
 plt.plot(gender, regr_female.predict(gender), color='blue', linewidth=3)
 plt.show()
 
-
-
 print "==== Age / Gender ===="
+
+ctr = nytimes['Ctr'].values
+age_gender = [ x for x in nytimes['Age_gender'].values]
 
 regr_age_gender = linear_model.LinearRegression()
 regr_age_gender.fit(age_gender, ctr)
@@ -130,6 +139,14 @@ print "               Coef :", regr_age_gender.coef_
 print "Sum of square error :", mean((regr_age_gender.predict(age_gender) - ctr) ** 2)
 print " Score (~1 is good) :", regr_age_gender.score(age_gender, ctr)
 
-plt.scatter(age_gender, ctr)
+plt.title("NYTimes - Predict by Age and Gender")
 plt.plot(age_gender, regr_age_gender.predict(age_gender), color='blue', linewidth=3)
 plt.show()
+
+print "===="
+print "==== With Gender as feature, the Score is zero and therefore no point to present to manager ===="
+print "===="
+
+print "===="
+print "==== Seems the Age / Gender vector has highest score but still low ===="
+print "===="
