@@ -30,8 +30,8 @@ print "    Model Coefficient: ", lm.coef_
 # print "  Log Model Intercept: ", log_lm.intercept_
 # rint "Log Model Coefficient: ", log_lm.coef_
 
-lm.predict(salary)
-baseball['predict'] = lm.predict(salary)
+lm.predict(yearid)
+baseball['predict'] = lm.predict(yearid)
 
 # log_lm.predict(log_hr)
 # baseball['log_predict'] = np.exp(log_lm.predict(log_hr))
@@ -41,7 +41,7 @@ plt.scatter(baseball['yearID'], baseball['salary'])
 plt.show()
 
 plt.title("yearID, Prediction ...")
-plt.plot(yearid, lm.predict(salary))
+plt.plot(yearid, lm.predict(yearid))
 plt.show()
 
 """
@@ -60,19 +60,19 @@ print "    Model Coefficient: ", lm_height.coef_
 # print "  Log Model Intercept: ", log_lm.intercept_
 # rint "Log Model Coefficient: ", log_lm.coef_
 
-lm_height.predict(salary)
-baseball['predict'] = lm_height.predict(salary)
+lm_height.predict(height)
+baseball['predict'] = lm_height.predict(height)
 
 plt.title("Scatter of height and the salary")
 plt.scatter(baseball['height'], baseball['salary'])
 plt.show()
 
 plt.title("height, Prediction ...")
-plt.plot(height, lm.predict(salary))
+plt.plot(height, lm.predict(height))
 plt.show()
 
 """
-Looks like mid-height player have higher salary
+Looks like taller player have higher salary
 """
 
 
