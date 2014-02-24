@@ -19,9 +19,13 @@ So can memes really be modeled as genes ? How would one test the hypothesis that
 
 ## Style: 
 
-The study examined near-complete traces of hundreds of memes, collectively comprising over 460 million individual instances.
+I think the study is first and foremost to let Facebook themselves understand more about their users' status usage pattern and then adjust the algorithm to display various posts in each Facebook users' wall.
+
+On the other hand, it is also some impressive figures and findings that will attract many Internet technology as well as social media blogs to publish.
 
 ## Methods: 
+
+The study examined near-complete traces of hundreds of memes, collectively comprising over 460 million individual instances.
 
 Every instance of a meme variant has a constant probability per unit time of being copied. An individual copy will be exact with probability (1 - µ) and will be a mutation with probability µ (e.g. if µ is 0.1, 90% of users will copy their friends’ version exactly, and 10% will modify the text before posting it as their own status update). 
 
@@ -32,3 +36,4 @@ For a given mutation rate, the Yule model predicts how popularity will be distri
 ## Conclusions: 
 
 The study observed a number of remarkable parallels between how information evolves in a social network and how genes evolve. Drawing these parallels simply hasn’t been possible before for lack of large-scale data containing the evolution histories of many memes.
+
