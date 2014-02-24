@@ -1,8 +1,8 @@
-# Journal Review
+# Can Internet Memes be Modeled as Genes?
 
 ## Objective/Abstract: 
 
-Can Internet Memes be Modeled as Genes?
+Richard Dawkins likened Internet memes to genes, and this study is to show just how accurate that analogy is.
 
 Source : [The evolution of memes on Facebook](https://www.facebook.com/notes/facebook-data-science/the-evolution-of-memes-on-facebook/10151988334203859)
 
@@ -10,7 +10,7 @@ The News : [Facebook Data Scientists Prove Memes Mutate And Adapt Like DNA](http
 
 ## Hypothesis: 
 
-A meme is an idea that is readily transmitted from person to person. But we humans are not perfect transmitters. While sometimes we repeat the idea exactly, often we change the meme, either unintentionally, or to embellish or **improve** it.
+A meme is an idea that is readily transmitted from person to person. But we humans are not perfect transmitters. While sometimes we repeat the idea exactly, often we change the meme, either unintentionally, or to **embellish** or **improve** it.
 
 So can memes really be modeled as genes ? How would one test the hypothesis that memes undergo a process akin to biological evolution? 
 
