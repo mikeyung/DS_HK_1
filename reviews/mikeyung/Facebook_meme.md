@@ -8,6 +8,8 @@ Source : [The evolution of memes on Facebook](https://www.facebook.com/notes/fac
 
 The News : [Facebook Data Scientists Prove Memes Mutate And Adapt Like DNA](http://techcrunch.com/2014/01/08/facebook-memes/)
 
+**Not yet completed ...**
+
 ## Hypothesis: 
 
 An Internet meme is an idea that is readily transmitted from person to person. But we humans are not perfect transmitters. While sometimes we repeat the idea exactly, often we **change** the meme, either unintentionally, or to **embellish** or **improve** it.
@@ -17,7 +19,7 @@ So can memes really be modeled as genes ? How would one test the hypothesis that
 
 ## Style: 
 
-Who was the audience of the paper, and how could that get figured out? (Some data science papers are not written for other data scientists, but more targeted towards the applied section of the paper, ie Sociologists, etc).
+The study examined near-complete traces of hundreds of memes, collectively comprising over 460 million individual instances.
 
 ## Methods: 
 
@@ -29,4 +31,4 @@ For a given mutation rate, the Yule model predicts how popularity will be distri
 
 ## Conclusions: 
 
-*Overall assessment of the paper. This is generally broken into parts of what you thought about the material you read, do you think it was well written or poorly written, how well did it answer the questions it was looking at, and did you have any follow up questions about the data, methodologies, etc.*
+The study observed a number of remarkable parallels between how information evolves in a social network and how genes evolve. Drawing these parallels simply hasn’t been possible before for lack of large-scale data containing the evolution histories of many memes.
