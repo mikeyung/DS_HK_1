@@ -40,6 +40,8 @@ train = read_csv('train-utf8.csv')
 test = read_csv('test-utf8.csv')
 
 vectorizer = CountVectorizer()
+vectorizer.set_params(stop_words='english')
+
 X_train = vectorizer.fit_transform(train.Comment)
 X_test = vectorizer.transform(test.Comment)
 
