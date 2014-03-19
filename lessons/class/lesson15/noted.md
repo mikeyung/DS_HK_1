@@ -3,7 +3,7 @@
 lahmanID, Unique number assigned to each player
 playerID, A unique code asssigned to each player.  The playerID links the data in this file with records in the other files.
 managerID, An ID for individuals who served as managers
-hofID, An ID for individuals who are in teh baseball Hall of Fame
+hofID, An ID for individuals who are in the baseball Hall of Fame
 birthYear, Year player was born
 birthMonth, Month player was born
 birthDay, Day player was born

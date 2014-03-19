@@ -17,6 +17,9 @@ bases a player
 # Create a new dataframe
 base = pd.read_csv('https://raw.github.com/ga-students/DS_HK_1/gh-pages/data/class/baseballRegressionData/baseball.csv')
 
+# Check the Game attribute
+# base['G'].describe() 
+
 # Select numerical feature
 base = pd.DataFrame(base, columns=["HR", "RBI", 'R', "G", "SB", "salary", 'height', 'weight', 'yearID'])
 
@@ -27,6 +30,8 @@ and my thought was filling in the null values with the mean of each
 column would not affect the results of the regression, since it would
 not add outliers to the data.
 '''
+
+# fill the NaN with mean value
 baseFill = base.fillna(base.mean())
 
 # Response
@@ -37,6 +42,8 @@ baseInput = baseFill[["HR", "RBI", 'R', "G", "SB", 'height', 'weight', 'yearID']
 
 # Run feature analysis
 features = feature_selection.univariate_selection.f_regression(baseInput, salary)
+
+# zip()
 
 '''
 F-score Results: array([ 2090.11260191,  1678.169398  ,  1353.50419942,   769.57688219,
