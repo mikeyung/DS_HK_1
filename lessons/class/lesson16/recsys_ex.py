@@ -25,7 +25,7 @@ def quickstart():
     recsys.algorithm.VERBOSE = True
 
     # load movielens data
-    dat_file = 'ml-1m/ratings.dat'
+    dat_file = '/Users/michaelyung/DS_HK_1/lessons/class/lesson16/recsys/pydata-book/ch02/movielens/ratings.dat'
     svd.load_data(filename=dat_file, sep='::', format={'col':0, 'row':1, 'value':2, 'ids': int})
 
     # compute svd
@@ -68,7 +68,7 @@ def quickstart():
     #  (2339, 5.4916048051511659)]
 
 # ref: http://ocelma.net/software/python-recsys/build/html/examples.html
-def ex1(dat_file='ml-1m/ratings.dat',
+def ex1(dat_file='/Users/michaelyung/DS_HK_1/lessons/class/lesson16/recsys/pydata-book/ch02/movielens/ratings.dat',
         pct_train=0.5):
 
     data = Data()
@@ -104,7 +104,8 @@ def ex1(dat_file='ml-1m/ratings.dat',
 
     print 'RMSE=%s' % rmse.compute()
     print 'MAE=%s' % mae.compute()
+    print 'ITEMID', item_id
 
-if __name__ == '__main__':
-    quickstart()
-    # ex1()
+#if __name__ == '__main__':
+#    quickstart()
+ex1()
