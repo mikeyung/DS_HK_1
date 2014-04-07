@@ -3,13 +3,14 @@
 ###
 ### Michael Yung
 ###
-### linkedin_1.py
+### program_1.py
 ###
 ### First Linkedin program to output my connections' URL and my skills
 ###
 ### Input - n/a
 ### Output -
 ### Connections' URL - output_connections_url.csv
+###       Public URL - output_public_url.csv
 ###        My Skills - output_my_skills.csv
 """
 
@@ -46,7 +47,8 @@ print " "
 print "Input - n/a"
 print " "
 print "Output -"
-print "Connections' URL - output_connections_url.csv"
+print "Connections' URL - output_connections_urls.csv"
+print "      Public URL - output_public_urls.csv"
 print "       My Skills - output_my_skills.csv"
 print " "
 print "=========="
@@ -70,7 +72,7 @@ connections = app.get_connections()
 """
 
 print "Get the Linkedin URL of all the connections and output to csv file ..."
-connections_url = '/Users/michaelyung/DS_HK_1/finals/mikeyung/output_connections_url.csv'
+connections_url = '/Users/michaelyung/DS_HK_1/finals/mikeyung/output_connections_urls.csv'
 f = open(connections_url, 'w')
 
 for c in connections['values']:
@@ -82,7 +84,7 @@ for c in connections['values']:
 f.close()
 
 print "Get the Public URL of all the connections and output to csv file ..."
-public_url = '/Users/michaelyung/DS_HK_1/finals/mikeyung/output_public_url.csv'
+public_url = '/Users/michaelyung/DS_HK_1/finals/mikeyung/output_public_urls.csv'
 f = open(public_url, 'w')
 
 public = app.get_connections(selectors=['publicProfileUrl'])
@@ -107,4 +109,3 @@ for rs in result:
 	f.write(rs["skill"]["name"] + '\n')
 
 f.close()
-x

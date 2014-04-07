@@ -1,0 +1,888 @@
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     2.601D-01  1.307D+03
+    1    3     1     0  ---    1  1.6D-02  4.8D-03  1.499D-01  1.307D+03
+    2    4     0     0  con    0  1.0D+00  2.9D-03  2.824D-02  1.307D+03
+    3    5     0     0  con    0  1.0D+00  4.4D-04  2.817D-02  1.307D+03
+    4    6     0     0  con    0  1.0D+00  1.2D-03  2.806D-02  1.307D+03
+    5    7     0     0  con    0  1.0D+00  4.0D-03  7.842D-02  1.307D+03
+    6    8     0     0  con    0  1.0D+00  1.1D-02  1.545D-01  1.307D+03
+    7    9     0     0  con    0  1.0D+00  2.8D-02  2.570D-01  1.307D+03
+    8   10     0     0  con    0  1.0D+00  6.3D-02  3.588D-01  1.307D+03
+    9   11     0     0  con    0  1.0D+00  9.7D-02  3.598D-01  1.307D+03
+   10   12     0     0  con    0  1.0D+00  7.9D-02  1.009D-01  1.307D+03
+   11   13     0     0  con    0  1.0D+00  2.5D-03  5.866D-03  1.307D+03
+   12   14     0     0  con    0  1.0D+00  1.9D-03  7.503D-04  1.307D+03
+   13   15     0     0  con    0  1.0D+00  2.1D-04  4.547D-05  1.307D+03
+   14   17     0     0  con    1  3.8D-01  1.4D-07  0.000D+00  1.307D+03
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            1     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     2.274D-05  1.581D+03
+    1    6     1     0  ---    4  4.6D-02  1.0D-06  0.000D+00  1.581D+03
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            2     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     9.602D-02  1.407D+03
+    1    3     1     0  ---    1  5.4D-02  5.4D-03  3.270D-02  1.407D+03
+    2    4     0     0  con    0  1.0D+00  1.3D-03  2.738D-02  1.407D+03
+    3    5     0     0  con    0  1.0D+00  4.2D-03  2.731D-02  1.407D+03
+    4    6     0     0  con    0  1.0D+00  1.4D-02  8.063D-02  1.407D+03
+    5    7     0     0  con    0  1.0D+00  4.1D-02  1.672D-01  1.407D+03
+    6    8     0     0  con    0  1.0D+00  1.1D-01  2.900D-01  1.407D+03
+    7    9     0     0  con    0  1.0D+00  2.5D-01  4.349D-01  1.407D+03
+    8   10     0     0  con    0  1.0D+00  4.5D-01  4.986D-01  1.407D+03
+    9   11     0     0  con    0  1.0D+00  4.7D-01  3.464D-01  1.407D+03
+   10   12     0     0  con    0  1.0D+00  1.8D-01  1.049D-01  1.407D+03
+   11   13     0     0  con    0  1.0D+00  3.1D-02  1.046D-02  1.407D+03
+   12   14     0     0  con    0  1.0D+00  2.3D-02  5.230D-04  1.407D+03
+   13   15     0     0  con    0  1.0D+00  1.1D-03  2.274D-05  1.407D+03
+   14   17     0     0  con    1  1.7D-01  1.1D-03  1.819D-04  1.407D+03
+   15   18     0     0  con    0  1.0D+00  3.3D-05  6.821D-05  1.407D+03
+   16   22     0     0  con    3  1.1D+00  2.2D-05  4.547D-05  1.407D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     2.601D-01  1.307D+03
+    1    3     1     0  ---    1  1.6D-02  4.8D-03  1.499D-01  1.307D+03
+    2    4     0     0  con    0  1.0D+00  2.9D-03  2.824D-02  1.307D+03
+    3    5     0     0  con    0  1.0D+00  4.4D-04  2.817D-02  1.307D+03
+    4    6     0     0  con    0  1.0D+00  1.2D-03  2.806D-02  1.307D+03
+    5    7     0     0  con    0  1.0D+00  4.0D-03  7.842D-02  1.307D+03
+    6    8     0     0  con    0  1.0D+00  1.1D-02  1.545D-01  1.307D+03
+    7    9     0     0  con    0  1.0D+00  2.8D-02  2.570D-01  1.307D+03
+    8   10     0     0  con    0  1.0D+00  6.3D-02  3.588D-01  1.307D+03
+    9   11     0     0  con    0  1.0D+00  9.7D-02  3.598D-01  1.307D+03
+   10   12     0     0  con    0  1.0D+00  7.9D-02  1.009D-01  1.307D+03
+   11   13     0     0  con    0  1.0D+00  2.5D-03  5.866D-03  1.307D+03
+   12   14     0     0  con    0  1.0D+00  1.9D-03  7.503D-04  1.307D+03
+   13   15     0     0  con    0  1.0D+00  2.1D-04  4.547D-05  1.307D+03
+   14   17     0     0  con    1  3.8D-01  1.4D-07  0.000D+00  1.307D+03
+
+CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL            
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            4     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     5.492D-01  1.305D+03
+    1    3     1     0  ---    1  9.9D-03  6.7D-03  4.068D-01  1.305D+03
+    2    4     0     0  con    0  1.0D+00  2.1D-03  1.840D-01  1.305D+03
+    3    5     0     0  con    0  1.0D+00  3.9D-03  7.860D-02  1.305D+03
+    4    6     0     0  con    0  1.0D+00  2.3D-03  3.997D-02  1.305D+03
+    5    7     0     0  con    0  1.0D+00  1.4D-03  3.979D-02  1.305D+03
+    6    8     0     0  con    0  1.0D+00  7.6D-03  7.999D-02  1.305D+03
+    7    9     0     0  con    0  1.0D+00  1.6D-02  1.702D-01  1.305D+03
+    8   10     0     0  con    0  1.0D+00  4.4D-02  3.034D-01  1.305D+03
+    9   11     0     0  con    0  1.0D+00  8.4D-02  3.937D-01  1.305D+03
+   10   12     0     0  con    0  1.0D+00  1.1D-01  3.012D-01  1.305D+03
+   11   13     0     0  con    0  1.0D+00  5.9D-02  2.022D-01  1.305D+03
+   12   14     0     0  con    0  1.0D+00  6.5D-03  3.156D-02  1.305D+03
+   13   15     0     0  con    0  1.0D+00  1.6D-02  9.004D-03  1.305D+03
+   14   16     0     0  con    0  1.0D+00  3.9D-03  4.547D-04  1.305D+03
+   15   17     0     0  con    0  1.0D+00  8.1D-06  1.819D-04  1.305D+03
+   16   18     0     0  con    0  1.0D+00  3.6D-06  4.547D-05  1.305D+03
+   17   19     0     0  con    0  1.0D+00  1.0D-06  4.547D-05  1.305D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            5     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     8.971D-01  1.304D+03
+    1    3     1     0  ---    1  1.1D-02  1.1D-02  6.443D-01  1.304D+03
+    2    4     0     0  con    0  1.0D+00  3.5D-03  2.293D-01  1.304D+03
+    3    5     0     0  con    0  1.0D+00  3.5D-03  1.279D-01  1.304D+03
+    4    6     0     0  con    0  1.0D+00  3.2D-03  5.514D-02  1.304D+03
+    5    7     0     0  con    0  1.0D+00  2.5D-03  5.043D-02  1.304D+03
+    6    8     0     0  con    0  1.0D+00  3.3D-03  5.009D-02  1.304D+03
+    7    9     0     0  con    0  1.0D+00  1.3D-02  1.385D-01  1.304D+03
+    8   10     0     0  con    0  1.0D+00  3.1D-02  2.806D-01  1.304D+03
+    9   11     0     0  con    0  1.0D+00  7.7D-02  4.567D-01  1.304D+03
+   10   12     0     0  con    0  1.0D+00  1.3D-01  5.316D-01  1.304D+03
+   11   13     0     0  con    0  1.0D+00  1.5D-01  2.941D-01  1.304D+03
+   12   14     0     0  con    0  1.0D+00  5.1D-02  1.072D-01  1.304D+03
+   13   15     0     0  con    0  1.0D+00  1.2D-02  1.833D-02  1.304D+03
+   14   16     0     0  con    0  1.0D+00  8.1D-03  1.319D-03  1.304D+03
+   15   17     0     0  con    0  1.0D+00  1.3D-03  1.000D-03  1.304D+03
+   16   19     0     0  con    1  4.2D-01  1.3D-05  3.638D-04  1.304D+03
+   17   20     0     0  con    0  1.0D+00  1.9D-04  4.547D-05  1.304D+03
+   18   21     0     0  con    0  1.0D+00  5.4D-06  4.547D-05  1.304D+03
+   19   22     0     0  con    0  1.0D+00  4.8D-07  2.274D-05  1.304D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            6     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     9.135D-01  1.304D+03
+    1    3     1     0  ---    1  1.1D-02  1.2D-02  6.686D-01  1.304D+03
+    2    4     0     0  con    0  1.0D+00  3.6D-03  2.328D-01  1.304D+03
+    3    5     0     0  con    0  1.0D+00  3.5D-03  1.322D-01  1.304D+03
+    4    6     0     0  con    0  1.0D+00  3.3D-03  5.671D-02  1.304D+03
+    5    7     0     0  con    0  1.0D+00  2.5D-03  5.109D-02  1.304D+03
+    6    8     0     0  con    0  1.0D+00  3.2D-03  5.073D-02  1.304D+03
+    7    9     0     0  con    0  1.0D+00  1.2D-02  1.417D-01  1.304D+03
+    8   10     0     0  con    0  1.0D+00  3.1D-02  2.910D-01  1.304D+03
+    9   11     0     0  con    0  1.0D+00  7.6D-02  4.731D-01  1.304D+03
+   10   12     0     0  con    0  1.0D+00  1.4D-01  5.581D-01  1.304D+03
+   11   13     0     0  con    0  1.0D+00  1.5D-01  3.253D-01  1.304D+03
+   12   14     0     0  con    0  1.0D+00  5.5D-02  1.242D-01  1.304D+03
+   13   15     0     0  con    0  1.0D+00  1.0D-02  3.388D-02  1.304D+03
+   14   16     0     0  con    0  1.0D+00  1.0D-02  3.274D-03  1.304D+03
+   15   17     0     0  con    0  1.0D+00  2.7D-03  9.095D-04  1.304D+03
+   16   19     0     0  con    1  2.4D-01  1.2D-04  1.592D-04  1.304D+03
+   17   20     0     0  con    0  1.0D+00  3.6D-06  6.821D-05  1.304D+03
+   18   23     0     0  con    2  2.9D-02  4.8D-06  6.821D-05  1.304D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            7     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     7.696D-01  1.300D+03
+    1    3     1     0  ---    1  9.5D-03  9.4D-03  5.746D-01  1.300D+03
+    2    4     0     0  con    0  1.0D+00  3.2D-03  2.849D-01  1.300D+03
+    3    5     0     0  con    0  1.0D+00  5.5D-03  1.455D-01  1.300D+03
+    4    6     0     0  con    0  1.0D+00  3.6D-03  8.195D-02  1.300D+03
+    5    7     0     0  con    0  1.0D+00  3.5D-03  4.384D-02  1.300D+03
+    6    8     0     0  con    0  1.0D+00  1.4D-03  4.088D-02  1.300D+03
+    7    9     0     0  con    0  1.0D+00  1.4D-03  4.284D-02  1.300D+03
+    8   10     0     0  con    0  1.0D+00  2.2D-02  1.646D-01  1.300D+03
+    9   11     0     0  con    0  1.0D+00  4.2D-02  2.902D-01  1.300D+03
+   10   12     0     0  con    0  1.0D+00  1.1D-01  4.405D-01  1.300D+03
+   11   13     0     0  con    0  1.0D+00  1.7D-01  4.585D-01  1.300D+03
+   12   15     0     0  con    1  5.0D-02  1.1D-02  4.235D-01  1.300D+03
+   13   16     0     0  con    0  1.0D+00  1.3D-01  2.384D-01  1.300D+03
+   14   17     0     0  con    0  1.0D+00  2.4D-02  6.651D-02  1.300D+03
+   15   18     0     0  con    0  1.0D+00  1.5D-02  4.593D-03  1.300D+03
+   16   19     0     0  con    0  1.0D+00  5.2D-03  1.910D-03  1.300D+03
+   17   21     0     0  con    1  1.6D-01  2.6D-04  5.684D-04  1.300D+03
+   18   22     0     0  con    0  1.0D+00  1.1D-05  1.137D-04  1.300D+03
+   19   23     0     0  con    0  1.0D+00  1.6D-06  6.821D-05  1.300D+03
+   20   25     0     0  con    1  4.3D-01  1.8D-06  2.274D-05  1.300D+03
+   21   29     0     0  con    3  3.8D-03  7.2D-07  4.547D-05  1.300D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            8     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     1.082D+00  1.292D+03
+    1    3     1     0  ---    1  2.0D-02  3.3D-02  6.999D-01  1.292D+03
+    2    4     0     0  con    0  1.0D+00  1.8D-02  5.638D-01  1.292D+03
+    3    5     0     0  con    0  1.0D+00  1.1D-02  6.027D-01  1.292D+03
+    4    6     0     0  con    0  1.0D+00  2.7D-03  2.249D-01  1.292D+03
+    5    7     0     0  con    0  1.0D+00  4.3D-03  2.057D-01  1.292D+03
+    6    8     0     0  con    0  1.0D+00  6.2D-03  2.016D-01  1.292D+03
+    7    9     0     0  con    0  1.0D+00  4.7D-03  8.090D-02  1.292D+03
+    8   10     0     0  con    0  1.0D+00  2.7D-03  8.079D-02  1.292D+03
+    9   11     0     0  con    0  1.0D+00  8.2D-03  2.555D-01  1.292D+03
+   10   12     0     0  con    0  1.0D+00  1.7D-02  4.753D-01  1.292D+03
+   11   13     0     0  con    0  1.0D+00  4.9D-02  8.133D-01  1.292D+03
+   12   14     0     0  con    0  1.0D+00  1.2D-01  1.221D+00  1.292D+03
+   13   15     0     0  con    0  1.0D+00  2.6D-01  1.648D+00  1.292D+03
+   14   16     0     0  con    0  1.0D+00  4.7D-01  1.919D+00  1.292D+03
+   15   17     0     0  con    0  1.0D+00  5.0D-01  9.314D-01  1.292D+03
+   16   18     0     0  con    0  1.0D+00  2.2D-01  6.621D-01  1.292D+03
+   17   19     0     0  con    0  1.0D+00  5.9D-02  7.390D-02  1.292D+03
+   18   20     0     0  con    0  1.0D+00  5.1D-02  4.495D-02  1.292D+03
+   19   22     0     0  con    1  4.0D-01  5.3D-03  4.409D-02  1.292D+03
+   20   23     0     0  con    0  1.0D+00  1.3D-02  1.323D-02  1.292D+03
+   21   24     0     0  con    0  1.0D+00  6.7D-04  2.183D-03  1.292D+03
+   22   25     0     0  con    0  1.0D+00  1.2D-03  1.137D-03  1.292D+03
+   23   26     0     0  con    0  1.0D+00  1.1D-03  2.728D-04  1.292D+03
+   24   28     0     0  con    1  3.4D-01  3.2D-04  4.093D-04  1.292D+03
+   25   30     0     0  con    1  2.0D-01  3.9D-05  1.364D-04  1.292D+03
+   26   31     0     0  con    0  1.0D+00  6.8D-06  2.274D-05  1.292D+03
+   27   33     0     0  con    1  3.8D-01  8.9D-07  2.274D-05  1.292D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            9     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     1.158D+00  1.284D+03
+    1    3     1     0  ---    1  2.0D-02  3.3D-02  1.057D+00  1.284D+03
+    2    4     0     0  con    0  1.0D+00  2.4D-02  4.808D-01  1.284D+03
+    3    5     0     0  con    0  1.0D+00  3.1D-02  2.068D+00  1.284D+03
+    4    6     0     0  con    0  1.0D+00  7.8D-03  3.512D-01  1.284D+03
+    5    7     0     0  con    0  1.0D+00  3.0D-03  2.169D-01  1.284D+03
+    6    8     0     0  con    0  1.0D+00  7.0D-03  1.386D-01  1.284D+03
+    7    9     0     0  con    0  1.0D+00  7.2D-03  8.786D-02  1.284D+03
+    8   10     0     0  con    0  1.0D+00  4.8D-03  7.815D-02  1.284D+03
+    9   11     0     0  con    0  1.0D+00  5.2D-03  7.815D-02  1.284D+03
+   10   12     0     0  con    0  1.0D+00  1.1D-02  1.834D-01  1.284D+03
+   11   13     0     0  con    0  1.0D+00  3.7D-02  3.805D-01  1.284D+03
+   12   14     0     0  con    0  1.0D+00  9.8D-02  6.759D-01  1.284D+03
+   13   15     0     0  con    0  1.0D+00  2.4D-01  1.074D+00  1.284D+03
+   14   16     0     0  con    0  1.0D+00  5.2D-01  1.448D+00  1.284D+03
+   15   17     0     0  con    0  1.0D+00  7.6D-01  1.404D+00  1.284D+03
+   16   19     0     0  con    1  2.8D-02  2.4D-02  1.456D+00  1.284D+03
+   17   20     0     0  con    0  1.0D+00  5.8D-01  7.600D-01  1.284D+03
+   18   21     0     0  con    0  1.0D+00  1.1D-01  1.262D+00  1.284D+03
+   19   22     0     0  con    0  1.0D+00  3.9D-02  1.297D-01  1.284D+03
+   20   23     0     0  con    0  1.0D+00  4.2D-02  4.313D-02  1.284D+03
+   21   24     0     0  con    0  1.0D+00  1.3D-02  1.771D-02  1.284D+03
+   22   25     0     0  con    0  1.0D+00  4.6D-03  7.685D-03  1.284D+03
+   23   26     0     0  con    0  1.0D+00  3.0D-03  7.662D-03  1.284D+03
+   24   27     0     0  con    0  1.0D+00  3.6D-04  2.456D-03  1.284D+03
+   25   28     0     0  con    0  1.0D+00  1.1D-04  4.093D-04  1.284D+03
+   26   29     0     0  con    0  1.0D+00  4.9D-04  1.592D-04  1.284D+03
+   27   32     0     0  con    2  3.0D-02  1.8D-04  1.592D-04  1.284D+03
+   28   34     0     0  con    1  1.2D-01  2.3D-06  1.137D-04  1.284D+03
+   29   37     0     0  con    2  2.4D-02  4.5D-06  1.364D-04  1.284D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           10     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     1.144D+00  1.275D+03
+    1    3     1     0  ---    1  6.0D-02  1.1D-01  3.588D+00  1.275D+03
+    2    4     0     0  con    0  1.0D+00  2.7D-02  6.623D+00  1.275D+03
+    3    5     0     0  con    0  1.0D+00  3.0D-02  6.514D-01  1.274D+03
+    4    6     0     0  con    0  1.0D+00  1.0D-02  5.900D-01  1.274D+03
+    5    7     0     0  con    0  1.0D+00  3.7D-02  4.498D-01  1.274D+03
+    6    8     0     0  con    0  1.0D+00  3.3D-02  8.609D-01  1.274D+03
+    7    9     0     0  con    0  1.0D+00  1.1D-02  3.075D-01  1.274D+03
+    8   10     0     0  con    0  1.0D+00  4.9D-03  1.603D-01  1.274D+03
+    9   11     0     0  con    0  1.0D+00  1.0D-02  1.205D-01  1.274D+03
+   10   12     0     0  con    0  1.0D+00  6.9D-03  7.972D-02  1.274D+03
+   11   13     0     0  con    0  1.0D+00  4.5D-03  7.963D-02  1.274D+03
+   12   14     0     0  con    0  1.0D+00  7.3D-03  1.034D-01  1.274D+03
+   13   15     0     0  con    0  1.0D+00  3.1D-02  2.519D-01  1.274D+03
+   14   16     0     0  con    0  1.0D+00  7.2D-02  4.495D-01  1.274D+03
+   15   17     0     0  con    0  1.0D+00  2.0D-01  7.701D-01  1.274D+03
+   16   18     0     0  con    0  1.0D+00  4.8D-01  1.207D+00  1.274D+03
+   17   19     0     0  con    0  1.0D+00  1.0D+00  2.057D+00  1.274D+03
+   18   20     0     0  con    0  1.0D+00  1.6D+00  2.837D+00  1.274D+03
+   19   21     0     0  con    0  1.0D+00  5.7D-02  1.226D+00  1.274D+03
+   20   22     0     0  con    0  1.0D+00  2.3D-01  2.464D-01  1.274D+03
+   21   23     0     0  con    0  1.0D+00  2.2D-02  9.945D-02  1.274D+03
+   22   24     0     0  con    0  1.0D+00  3.1D-02  4.479D-02  1.274D+03
+   23   25     0     0  con    0  1.0D+00  1.2D-02  3.624D-02  1.274D+03
+   24   26     0     0  con    0  1.0D+00  2.1D-03  4.204D-02  1.274D+03
+   25   27     0     0  con    0  1.0D+00  1.6D-02  1.082D-02  1.274D+03
+   26   28     0     0  con    0  1.0D+00  4.8D-03  1.683D-03  1.274D+03
+   27   29     0     0  con    0  1.0D+00  1.1D-03  1.523D-03  1.274D+03
+   28   34     0     0  con    4  2.6D-01  3.3D-04  1.387D-03  1.274D+03
+   29   36     0     0  con    1  7.7D-02  5.1D-05  5.457D-04  1.274D+03
+   30   38     0     0  con    1  2.0D-01  9.3D-05  4.093D-04  1.274D+03
+   31   40     0     0  con    1  3.7D-01  1.6D-05  2.728D-04  1.274D+03
+   32   41     0     0  con    0  1.0D+00  1.7D-05  1.364D-04  1.274D+03
+   33   42     0     0  con    0  1.0D+00  1.7D-05  6.821D-05  1.274D+03
+   34   46     0     0  con    3  2.3D-02  8.6D-07  4.547D-05  1.274D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           11     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     1.149D+00  1.275D+03
+    1    3     1     0  ---    1  4.3D-02  8.7D-02  4.890D+00  1.275D+03
+    2    4     0     0  con    0  1.0D+00  2.3D-02  5.137D+00  1.275D+03
+    3    5     0     0  con    0  1.0D+00  2.3D-02  1.016D+00  1.275D+03
+    4    6     0     0  con    0  1.0D+00  7.3D-03  6.766D-01  1.275D+03
+    5    7     0     0  con    0  1.0D+00  3.1D-02  5.141D-01  1.274D+03
+    6    8     0     0  con    0  1.0D+00  2.1D-02  7.460D-01  1.274D+03
+    7    9     0     0  con    0  1.0D+00  2.2D-02  3.472D-01  1.274D+03
+    8   10     0     0  con    0  1.0D+00  7.0D-03  1.583D-01  1.274D+03
+    9   11     0     0  con    0  1.0D+00  8.3D-03  1.618D-01  1.274D+03
+   10   12     0     0  con    0  1.0D+00  7.4D-03  8.126D-02  1.274D+03
+   11   13     0     0  con    0  1.0D+00  3.7D-03  8.147D-02  1.274D+03
+   12   14     0     0  con    0  1.0D+00  6.8D-03  1.144D-01  1.274D+03
+   13   15     0     0  con    0  1.0D+00  3.5D-02  3.193D-01  1.274D+03
+   14   16     0     0  con    0  1.0D+00  8.0D-02  5.796D-01  1.274D+03
+   15   17     0     0  con    0  1.0D+00  2.3D-01  1.003D+00  1.274D+03
+   16   18     0     0  con    0  1.0D+00  5.3D-01  1.504D+00  1.274D+03
+   17   19     0     0  con    0  1.0D+00  1.0D+00  2.176D+00  1.274D+03
+   18   20     0     0  con    0  1.0D+00  1.7D+00  4.131D+00  1.274D+03
+   19   21     0     0  con    0  1.0D+00  1.6D-01  1.113D+00  1.274D+03
+   20   22     0     0  con    0  1.0D+00  1.5D-01  4.246D-01  1.274D+03
+   21   23     0     0  con    0  1.0D+00  1.4D-01  1.315D-01  1.274D+03
+   22   24     0     0  con    0  1.0D+00  7.6D-02  6.378D-02  1.274D+03
+   23   25     0     0  con    0  1.0D+00  2.6D-02  1.944D-01  1.274D+03
+   24   26     0     0  con    0  1.0D+00  1.9D-02  3.047D-02  1.274D+03
+   25   27     0     0  con    0  1.0D+00  7.1D-03  1.062D-02  1.274D+03
+   26   28     0     0  con    0  1.0D+00  6.5D-03  5.525D-03  1.274D+03
+   27   29     0     0  con    0  1.0D+00  1.9D-03  4.297D-03  1.274D+03
+   28   30     0     0  con    0  1.0D+00  7.1D-04  1.410D-03  1.274D+03
+   29   31     0     0  con    0  1.0D+00  3.9D-05  1.364D-04  1.274D+03
+   30   34     0     0  con    2  4.6D-02  1.2D-04  1.819D-04  1.274D+03
+   31   36     0     0  con    1  4.6D-01  7.0D-06  1.137D-04  1.274D+03
+   32   38     0     0  con    1  3.5D-01  1.9D-05  1.137D-04  1.274D+03
+   33   40     0     0  con    1  4.8D-01  3.3D-05  1.364D-04  1.274D+03
+   34   41     0     0  con    0  1.0D+00  1.3D-05  1.364D-04  1.274D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           12     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     1.471D+00  1.275D+03
+    1    3     1     0  ---    1  1.6D-02  3.8D-02  4.645D+00  1.275D+03
+    2    4     0     0  con    0  1.0D+00  2.1D-02  1.249D+00  1.275D+03
+    3    5     0     0  con    0  1.0D+00  1.5D-02  1.135D+00  1.275D+03
+    4    6     0     0  con    0  1.0D+00  3.0D-02  1.930D+00  1.275D+03
+    5    7     0     0  con    0  1.0D+00  2.2D-02  1.153D+00  1.275D+03
+    6    8     0     0  con    0  1.0D+00  2.2D-02  4.213D-01  1.274D+03
+    7    9     0     0  con    0  1.0D+00  1.4D-02  4.057D-01  1.274D+03
+    8   10     0     0  con    0  1.0D+00  1.1D-02  5.184D-01  1.274D+03
+    9   11     0     0  con    0  1.0D+00  1.3D-02  4.523D-01  1.274D+03
+   10   12     0     0  con    0  1.0D+00  1.1D-02  4.033D-01  1.274D+03
+   11   13     0     0  con    0  1.0D+00  4.3D-03  8.436D-02  1.274D+03
+   12   14     0     0  con    0  1.0D+00  8.7D-04  8.433D-02  1.274D+03
+   13   15     0     0  con    0  1.0D+00  3.9D-03  8.429D-02  1.274D+03
+   14   16     0     0  con    0  1.0D+00  1.2D-02  1.395D-01  1.274D+03
+   15   17     0     0  con    0  1.0D+00  3.5D-02  2.846D-01  1.274D+03
+   16   18     0     0  con    0  1.0D+00  9.6D-02  6.070D-01  1.274D+03
+   17   19     0     0  con    0  1.0D+00  2.3D-01  8.201D-01  1.274D+03
+   18   20     0     0  con    0  1.0D+00  4.4D-01  1.222D+00  1.274D+03
+   19   21     0     0  con    0  1.0D+00  1.3D+00  1.834D+00  1.274D+03
+   20   22     0     0  con    0  1.0D+00  1.8D+00  1.423D+00  1.274D+03
+   21   23     0     0  con    0  1.0D+00  3.5D-01  1.051D+00  1.274D+03
+   22   24     0     0  con    0  1.0D+00  1.4D-01  2.521D-01  1.274D+03
+   23   25     0     0  con    0  1.0D+00  4.0D-02  3.208D-02  1.274D+03
+   24   26     0     0  con    0  1.0D+00  2.1D-02  8.208D-02  1.274D+03
+   25   27     0     0  con    0  1.0D+00  2.1D-03  2.353D-02  1.274D+03
+   26   28     0     0  con    0  1.0D+00  1.2D-03  7.913D-03  1.274D+03
+   27   29     0     0  con    0  1.0D+00  1.4D-03  6.230D-03  1.274D+03
+   28   30     0     0  con    0  1.0D+00  3.0D-03  3.479D-03  1.274D+03
+   29   31     0     0  con    0  1.0D+00  1.9D-03  2.501D-03  1.274D+03
+   30   33     0     0  con    1  3.3D-01  3.2D-04  1.091D-03  1.274D+03
+   31   34     0     0  con    0  1.0D+00  1.1D-03  2.501D-04  1.274D+03
+   32   35     0     0  con    0  1.0D+00  7.5D-06  6.821D-05  1.274D+03
+   33   36     0     0  con    0  1.0D+00  1.7D-05  6.821D-05  1.274D+03
+   34   38     0     0  con    1  2.8D-01  9.1D-07  2.274D-05  1.274D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           13     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     1.895D+00  1.275D+03
+    1    3     1     0  ---    1  7.1D-03  2.1D-02  3.659D+00  1.275D+03
+    2    4     0     0  con    0  1.0D+00  1.3D-02  1.910D+00  1.275D+03
+    3    5     0     0  con    0  1.0D+00  4.7D-02  1.529D+00  1.275D+03
+    4    6     0     0  con    0  1.0D+00  2.1D-02  1.703D+00  1.275D+03
+    5    7     0     0  con    0  1.0D+00  4.0D-02  7.964D-01  1.275D+03
+    6    8     0     0  con    0  1.0D+00  1.7D-02  3.649D-01  1.275D+03
+    7    9     0     0  con    0  1.0D+00  1.8D-02  5.339D-01  1.275D+03
+    8   10     0     0  con    0  1.0D+00  1.1D-02  5.566D-01  1.275D+03
+    9   11     0     0  con    0  1.0D+00  1.4D-02  2.316D-01  1.274D+03
+   10   12     0     0  con    0  1.0D+00  4.1D-03  8.781D-02  1.274D+03
+   11   13     0     0  con    0  1.0D+00  3.0D-03  1.295D-01  1.274D+03
+   12   14     0     0  con    0  1.0D+00  5.9D-03  2.876D-01  1.274D+03
+   13   15     0     0  con    0  1.0D+00  1.6D-02  5.360D-01  1.274D+03
+   14   16     0     0  con    0  1.0D+00  3.8D-02  8.437D-01  1.274D+03
+   15   17     0     0  con    0  1.0D+00  1.0D-01  1.378D+00  1.274D+03
+   16   18     0     0  con    0  1.0D+00  2.7D-01  1.900D+00  1.274D+03
+   17   19     0     0  con    0  1.0D+00  7.1D-01  5.924D+00  1.274D+03
+   18   20     0     0  con    0  1.0D+00  4.2D-01  4.179D+00  1.274D+03
+   19   21     0     0  con    0  1.0D+00  1.3D+00  1.088D+00  1.274D+03
+   20   22     0     0  con    0  1.0D+00  9.6D-01  1.195D+00  1.274D+03
+   21   23     0     0  con    0  1.0D+00  4.7D-01  6.501D-01  1.274D+03
+   22   24     0     0  con    0  1.0D+00  9.0D-02  7.676D-02  1.274D+03
+   23   25     0     0  con    0  1.0D+00  1.9D-02  3.338D-02  1.274D+03
+   24   26     0     0  con    0  1.0D+00  8.5D-03  1.735D-02  1.274D+03
+   25   27     0     0  con    0  1.0D+00  3.4D-03  2.613D-02  1.274D+03
+   26   29     0     0  con    1  3.7D-01  3.9D-03  1.980D-02  1.274D+03
+   27   30     0     0  con    0  1.0D+00  2.2D-03  5.161D-03  1.274D+03
+   28   31     0     0  con    0  1.0D+00  1.2D-03  4.547D-04  1.274D+03
+   29   32     0     0  con    0  1.0D+00  9.6D-05  2.501D-04  1.274D+03
+   30   33     0     0  con    0  1.0D+00  6.3D-05  2.046D-04  1.274D+03
+   31   36     0     0  con    2  3.4D-02  8.1D-07  1.819D-04  1.274D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           14     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     2.737D+00  1.275D+03
+    1    3     1     0  ---    1  5.3D-03  1.9D-02  3.796D+00  1.275D+03
+    2    4     0     0  con    0  1.0D+00  9.6D-03  2.058D+00  1.275D+03
+    3    5     0     0  con    0  1.0D+00  5.5D-02  2.238D+00  1.275D+03
+    4    6     0     0  con    0  1.0D+00  2.2D-02  2.017D+00  1.275D+03
+    5    7     0     0  con    0  1.0D+00  5.8D-02  1.342D+00  1.275D+03
+    6    8     0     0  con    0  1.0D+00  2.3D-02  4.496D-01  1.275D+03
+    7    9     0     0  con    0  1.0D+00  5.5D-03  3.478D-01  1.275D+03
+    8   10     0     0  con    0  1.0D+00  1.6D-02  3.652D-01  1.275D+03
+    9   11     0     0  con    0  1.0D+00  1.0D-02  1.086D-01  1.275D+03
+   10   12     0     0  con    0  1.0D+00  5.6D-03  9.120D-02  1.275D+03
+   11   13     0     0  con    0  1.0D+00  4.0D-03  9.152D-02  1.275D+03
+   12   14     0     0  con    0  1.0D+00  1.2D-02  2.341D-01  1.275D+03
+   13   15     0     0  con    0  1.0D+00  2.9D-02  4.397D-01  1.275D+03
+   14   16     0     0  con    0  1.0D+00  8.5D-02  7.553D-01  1.275D+03
+   15   17     0     0  con    0  1.0D+00  2.2D-01  1.198D+00  1.275D+03
+   16   18     0     0  con    0  1.0D+00  5.3D-01  1.880D+00  1.274D+03
+   17   19     0     0  con    0  1.0D+00  1.1D+00  1.791D+00  1.274D+03
+   18   21     0     0  con    1  9.3D-02  3.0D-01  4.020D+00  1.274D+03
+   19   22     0     0  con    0  1.0D+00  1.3D+00  2.232D+00  1.274D+03
+   20   23     0     0  con    0  1.0D+00  9.8D-01  6.298D-01  1.274D+03
+   21   24     0     0  con    0  1.0D+00  1.0D-01  1.637D-01  1.274D+03
+   22   25     0     0  con    0  1.0D+00  1.9D-02  8.181D-02  1.274D+03
+   23   26     0     0  con    0  1.0D+00  1.7D-02  1.962D-02  1.274D+03
+   24   27     0     0  con    0  1.0D+00  5.5D-03  1.487D-02  1.274D+03
+   25   28     0     0  con    0  1.0D+00  9.6D-04  7.117D-03  1.274D+03
+   26   29     0     0  con    0  1.0D+00  1.5D-03  4.957D-03  1.274D+03
+   27   31     0     0  con    1  4.1D-01  6.5D-04  4.616D-03  1.274D+03
+   28   32     0     0  con    0  1.0D+00  6.5D-04  1.660D-03  1.274D+03
+   29   33     0     0  con    0  1.0D+00  1.0D-03  5.002D-04  1.274D+03
+   30   34     0     0  con    0  1.0D+00  1.3D-05  6.821D-05  1.274D+03
+   31   37     0     0  con    2  2.3D-02  5.4D-05  2.274D-04  1.274D+03
+   32   39     0     0  con    1  2.6D-01  2.5D-06  2.046D-04  1.274D+03
+   33   40     0     0  con    0  1.0D+00  5.3D-06  4.547D-05  1.274D+03
+   34   41     0     0  con    0  1.0D+00  2.2D-05  9.095D-05  1.274D+03
+   35   42     0     0  con    0  1.0D+00  1.8D-06  9.095D-05  1.274D+03
+   36   44     0     0  con    1  2.5D-01  9.2D-07  9.095D-05  1.274D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           15     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     3.726D+00  1.274D+03
+    1    3     1     0  ---    1  5.3D-03  2.4D-02  4.860D+00  1.274D+03
+    2    4     0     0  con    0  1.0D+00  9.6D-03  2.276D+00  1.274D+03
+    3    5     0     0  con    0  1.0D+00  5.2D-02  3.038D+00  1.274D+03
+    4    6     0     0  con    0  1.0D+00  3.6D-02  2.994D+00  1.274D+03
+    5    7     0     0  con    0  1.0D+00  8.2D-02  3.949D+00  1.274D+03
+    6    8     0     0  con    0  1.0D+00  2.4D-02  4.952D-01  1.274D+03
+    7    9     0     0  con    0  1.0D+00  4.9D-03  3.680D-01  1.274D+03
+    8   10     0     0  con    0  1.0D+00  1.4D-02  6.095D-01  1.274D+03
+    9   11     0     0  con    0  1.0D+00  9.8D-03  6.471D-01  1.274D+03
+   10   12     0     0  con    0  1.0D+00  2.4D-02  1.431D-01  1.274D+03
+   11   13     0     0  con    0  1.0D+00  7.6D-03  1.253D-01  1.274D+03
+   12   14     0     0  con    0  1.0D+00  2.5D-03  9.272D-02  1.274D+03
+   13   15     0     0  con    0  1.0D+00  3.2D-03  9.290D-02  1.274D+03
+   14   16     0     0  con    0  1.0D+00  1.2D-02  1.946D-01  1.274D+03
+   15   17     0     0  con    0  1.0D+00  3.2D-02  3.625D-01  1.274D+03
+   16   18     0     0  con    0  1.0D+00  9.0D-02  6.706D-01  1.274D+03
+   17   19     0     0  con    0  1.0D+00  2.4D-01  1.133D+00  1.274D+03
+   18   20     0     0  con    0  1.0D+00  5.8D-01  1.766D+00  1.274D+03
+   19   21     0     0  con    0  1.0D+00  1.2D+00  2.337D+00  1.274D+03
+   20   22     0     0  con    0  1.0D+00  1.7D+00  4.602D+00  1.274D+03
+   21   24     0     0  con    1  4.6D-01  1.2D+00  1.874D+00  1.274D+03
+   22   25     0     0  con    0  1.0D+00  2.0D-01  9.145D-01  1.274D+03
+   23   26     0     0  con    0  1.0D+00  5.5D-02  9.131D-02  1.274D+03
+   24   27     0     0  con    0  1.0D+00  4.9D-02  1.285D-02  1.274D+03
+   25   28     0     0  con    0  1.0D+00  8.3D-03  8.663D-03  1.274D+03
+   26   29     0     0  con    0  1.0D+00  1.1D-03  6.753D-03  1.274D+03
+   27   30     0     0  con    0  1.0D+00  7.7D-04  5.252D-03  1.274D+03
+   28   31     0     0  con    0  1.0D+00  9.0D-04  5.912D-04  1.274D+03
+   29   32     0     0  con    0  1.0D+00  1.9D-03  5.912D-04  1.274D+03
+   30   34     0     0  con    1  3.5D-01  4.1D-05  5.002D-04  1.274D+03
+   31   35     0     0  con    0  1.0D+00  2.5D-05  9.095D-05  1.274D+03
+   32   36     0     0  con    0  1.0D+00  6.5D-06  6.821D-05  1.274D+03
+   33   38     0     0  con    1  2.6D-01  2.5D-06  4.547D-05  1.274D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =           10     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     1.144D+00  1.275D+03
+    1    3     1     0  ---    1  6.0D-02  1.1D-01  3.588D+00  1.275D+03
+    2    4     0     0  con    0  1.0D+00  2.7D-02  6.623D+00  1.275D+03
+    3    5     0     0  con    0  1.0D+00  3.0D-02  6.514D-01  1.274D+03
+    4    6     0     0  con    0  1.0D+00  1.0D-02  5.900D-01  1.274D+03
+    5    7     0     0  con    0  1.0D+00  3.7D-02  4.498D-01  1.274D+03
+    6    8     0     0  con    0  1.0D+00  3.3D-02  8.609D-01  1.274D+03
+    7    9     0     0  con    0  1.0D+00  1.1D-02  3.075D-01  1.274D+03
+    8   10     0     0  con    0  1.0D+00  4.9D-03  1.603D-01  1.274D+03
+    9   11     0     0  con    0  1.0D+00  1.0D-02  1.205D-01  1.274D+03
+   10   12     0     0  con    0  1.0D+00  6.9D-03  7.972D-02  1.274D+03
+   11   13     0     0  con    0  1.0D+00  4.5D-03  7.963D-02  1.274D+03
+   12   14     0     0  con    0  1.0D+00  7.3D-03  1.034D-01  1.274D+03
+   13   15     0     0  con    0  1.0D+00  3.1D-02  2.519D-01  1.274D+03
+   14   16     0     0  con    0  1.0D+00  7.2D-02  4.495D-01  1.274D+03
+   15   17     0     0  con    0  1.0D+00  2.0D-01  7.701D-01  1.274D+03
+   16   18     0     0  con    0  1.0D+00  4.8D-01  1.207D+00  1.274D+03
+   17   19     0     0  con    0  1.0D+00  1.0D+00  2.057D+00  1.274D+03
+   18   20     0     0  con    0  1.0D+00  1.6D+00  2.837D+00  1.274D+03
+   19   21     0     0  con    0  1.0D+00  5.7D-02  1.226D+00  1.274D+03
+   20   22     0     0  con    0  1.0D+00  2.3D-01  2.464D-01  1.274D+03
+   21   23     0     0  con    0  1.0D+00  2.2D-02  9.945D-02  1.274D+03
+   22   24     0     0  con    0  1.0D+00  3.1D-02  4.479D-02  1.274D+03
+   23   25     0     0  con    0  1.0D+00  1.2D-02  3.624D-02  1.274D+03
+   24   26     0     0  con    0  1.0D+00  2.1D-03  4.204D-02  1.274D+03
+   25   27     0     0  con    0  1.0D+00  1.6D-02  1.082D-02  1.274D+03
+   26   28     0     0  con    0  1.0D+00  4.8D-03  1.683D-03  1.274D+03
+   27   29     0     0  con    0  1.0D+00  1.1D-03  1.523D-03  1.274D+03
+   28   34     0     0  con    4  2.6D-01  3.3D-04  1.387D-03  1.274D+03
+   29   36     0     0  con    1  7.7D-02  5.1D-05  5.457D-04  1.274D+03
+   30   38     0     0  con    1  2.0D-01  9.3D-05  4.093D-04  1.274D+03
+   31   40     0     0  con    1  3.7D-01  1.6D-05  2.728D-04  1.274D+03
+   32   41     0     0  con    0  1.0D+00  1.7D-05  1.364D-04  1.274D+03
+   33   42     0     0  con    0  1.0D+00  1.7D-05  6.821D-05  1.274D+03
+   34   46     0     0  con    3  2.3D-02  8.6D-07  4.547D-05  1.274D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
+RUNNING THE L-BFGS-B CODE
+
+it    = iteration number
+nf    = number of function evaluations
+nseg  = number of segments explored during the Cauchy search
+nact  = number of active bounds at the generalized Cauchy point
+sub   = manner in which the subspace minimization terminated:
+        con = converged, bnd = a bound was reached
+itls  = number of iterations performed in the line search
+stepl = step length used
+tstep = norm of the displacement (total step)
+projg = norm of the projected gradient
+f     = function value
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =            3     M =           12
+
+   it   nf  nseg  nact  sub  itls  stepl    tstep     projg        f
+    0    1     -     -   -     -     -        -     7.856D-01  1.154D+03
+    1    3     1     0  ---    1  1.3D-02  1.2D-02  8.820D-01  1.154D+03
+    2    4     0     0  con    0  1.0D+00  8.8D-03  6.139D-01  1.154D+03
+    3    5     0     0  con    0  1.0D+00  2.2D-02  1.832D-01  1.154D+03
+    4    6     0     0  con    0  1.0D+00  7.2D-03  6.021D-02  1.154D+03
+    5    7     0     0  con    0  1.0D+00  1.7D-03  1.751D-03  1.154D+03
+    6    8     0     0  con    0  1.0D+00  2.3D-05  1.137D-04  1.154D+03
+    7    9     0     0  con    0  1.0D+00  5.2D-06  4.547D-05  1.154D+03
+    8   10     0     0  con    0  1.0D+00  6.7D-07  4.547D-05  1.154D+03
+
+CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH             
+
+ Total User time 0.000E+00 seconds.
+
